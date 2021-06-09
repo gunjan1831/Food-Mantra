@@ -2,7 +2,7 @@ from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from .models import Item
 from .forms import ItemForm
-from django.template import loader
+from django.template import loader,Context
 
 
 # Create your views here.
@@ -51,3 +51,8 @@ def delete_item(request,id):
         item.delete()
         return redirect('foods:index')
     return render(request,'foods/item-delete.html',{'item':item})
+
+def aboutus(request):
+
+        template = loader.get_template('foods/aboutus.html')
+        return HttpResponse(template.render)
