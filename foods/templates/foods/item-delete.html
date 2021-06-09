@@ -1,3 +1,33 @@
+{% extends 'foods/base.html' %}
+
+{% block body %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <div class="card">
+                <div class="card-header text-white bg-info">
+                    <div class="card-title">
+                        Add item
+                    </div>
+                </div>
+                <div class="card-body">
+                 <form method="POST">
+  {% csrf_token %}
+  <h2>Are you sure u want to delete??</h2>
+  <button type="Submit">Confirm</button>
+</form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+{%  endblock %}
+
 <form method="POST">
   {% csrf_token %}
   <h2>Are you sure u want to delete??</h2>
