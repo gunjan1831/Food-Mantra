@@ -42,3 +42,24 @@ Details Page
 <h3><b>Login Feature </b></h3>
 <br>
 ![Login](https://user-images.githubusercontent.com/55911274/121298055-de3afe80-c910-11eb-9416-777fc8b1b880.PNG)
+<h3>Tech Used </h3>
+<ul>
+  <li>Django</li>
+   <li>HTML</li>
+  <li>BootStrapL</li>
+  <li>Git</li>
+  <li>Command Prompt</li>
+  </ul>
+  
+
+
+<h3>Future Implementation </h3>
+<ul>
+  <li>Deploy the Website</li>
+   <li>Work on an Interesting UI</li>
+  <li>Integrate Other Features Like Calorie Tracker, Informative Articles,Latest Statistics etc</li>
+  </ul>
+  
+  Suggestions and Changes are welcome!😊
+  <h6> Created By - Gunjan Purwar</h6>
+  
