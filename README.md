@@ -1,5 +1,5 @@
 # Food-Mantra
-</h3><p> This is a Django  Based Website which aims at promoting health awareness and perks of healthy eating .It gives a knowledge about various food items that we consume on daily basis. Check out for details!</p> </h3>
+</h3><p> This is a Django  Based WebApp which aims at promoting health awareness and perks of healthy eating .It gives a knowledge about various food items that we consume on daily basis. Check out for details!</p> </h3>
 
 ![Main Page](https://user-images.githubusercontent.com/55911274/121298032-d8ddb400-c910-11eb-8ffc-e0488dd0e656.PNG)
 
